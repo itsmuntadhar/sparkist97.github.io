@@ -1,0 +1,145 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    font-family: "Fira Mono";
+    margin: 0;
+}
+
+.container-fluid {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.row {
+    margin: 0px;
+}
+
+.bg {
+    height: 100%;
+    width: 100%;
+    background-image: url("../imgs/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-container {
+    width: 100%;
+    height: 333px;
+    overflow: hidden;
+}
+
+.hero {
+    width: 100%;
+    position: relative;
+}
+
+.white-sheet {
+    background-color: #fff;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.25;
+}
+
+.plate {
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.95;
+    padding: 10px;
+}
+
+.details {
+    padding: 2%;
+}
+
+.title {
+    text-align: left;
+}
+
+.border-container {
+    margin: 0;
+    padding: 0; 
+    height:333px;
+}
+
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .circular-image {
+        border-radius: 0;
+        width: 100%;
+    }
+    .border {
+        padding: 7px;
+        font-size: 21px;
+        letter-spacing: 6px;
+    }
+    .details {
+        padding: 7px;
+        font-size: 21px;
+    }
+    .title {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    .border-container {
+        height: auto;
+    }
+    .hero {
+        top: -124px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .circular-image {
+        border-radius: 50%;
+        width: 380px;
+        height: 380px;
+    }
+    .border {
+        padding: 10px;
+        font-size: 19px;
+        letter-spacing: 8px;
+
+    }
+    .details {
+        padding: 18px;
+        font-size: 25px;
+    }
+    .title {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+    .div_hero {
+        height: 400px;
+        width: 400px;
+    }
+    .hero {
+        top: -273px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .hero {
+        top: -333px;
+    }
+}
